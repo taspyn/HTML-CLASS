@@ -1,0 +1,52 @@
+body{
+	 
+
+	background-color: #666;
+	
+	
+	
+}
+.container{
+	width: 600px;
+	background-color:maroon;
+	margin: 0 auto; 
+	padding: 20px;
+	min-height:600px;
+	text-align: center;
+
+
+}
+
+.top1{
+		background-color: orange;
+		width:200px; 
+	}
+
+/*.top2{
+	background-color: pink;
+	width: 100px;
+
+}
+
+.top3{
+	background-color: blue;
+	width: 50px;
+
+}
+
+.middle{
+ 	background-color: yellow;
+ 	width: 50px;
+}
+
+.bottom1{
+	background-color: green;
+	width: 50px; 
+}
+.bottom2{
+	background-color: black;
+	width: 50px;
+
+*/
+}
+
