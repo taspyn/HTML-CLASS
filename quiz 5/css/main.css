@@ -41,11 +41,12 @@ h1{
 .content table tr:nth-child(odd){
 	/*padding-top: 20px;*/
 	border-top: 1px solid black;
-	background-color: #00FF00;
+	background-color: #00CED1
+;
 }
 
 .content table tr:nth-child(even){
 	/*padding-top: 20px;*/
 	border-top: 1px solid black;
-	background-color: #FFFF00;
+	background-color: #4169E1;
 }
