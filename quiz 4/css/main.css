@@ -13,6 +13,7 @@ body{
 	padding: 20px;
 	min-height:600px;
 	text-align: center;
+	/*float:left;*/
 
 
 }
@@ -20,33 +21,40 @@ body{
 .top1{
 		background-color: orange;
 		width:200px; 
+		min-height: 100px;
+		float:left;
 	}
 
-/*.top2{
+.top2{
 	background-color: pink;
 	width: 100px;
+	min-height: 100px;
 
 }
 
 .top3{
 	background-color: blue;
-	width: 50px;
+	width: 100px;
+	min-height: 100px;
 
 }
 
 .middle{
  	background-color: yellow;
- 	width: 50px;
+ 	width: 100px;
+ 	min-height: 100px;
 }
 
 .bottom1{
 	background-color: green;
-	width: 50px; 
+	width: 100px;
+	min-height: 100px;
 }
 .bottom2{
 	background-color: black;
-	width: 50px;
+	width: 100px;
+	min-height: 100px;
 
-*/
+
 }
 
