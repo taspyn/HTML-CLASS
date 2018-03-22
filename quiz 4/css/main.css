@@ -29,6 +29,8 @@ body{
 	background-color: pink;
 	width: 100px;
 	min-height: 100px;
+	float: left;
+
 
 }
 
@@ -36,6 +38,8 @@ body{
 	background-color: blue;
 	width: 100px;
 	min-height: 100px;
+	float: left;
+
 
 }
 
@@ -43,17 +47,22 @@ body{
  	background-color: yellow;
  	width: 100px;
  	min-height: 100px;
+ 	float: left;
+
 }
 
 .bottom1{
 	background-color: green;
 	width: 100px;
 	min-height: 100px;
+	float: left;
+
 }
 .bottom2{
 	background-color: black;
 	width: 100px;
 	min-height: 100px;
+	float: left;
 
 
 }

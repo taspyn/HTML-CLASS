@@ -31,12 +31,14 @@ h1{
 .content table tr th{
 	padding-right: 100px;
 	background-color: #9400D3;
+	color: white;
 }
 .content table tr td{
 	border-right: 1px solid black;
 	border-collapse: collapse;
 	padding-bottom: 20px;
 	/*background-color: pink;*/
+	color: white;
 }
 .content table tr:nth-child(odd){
 	/*padding-top: 20px;*/

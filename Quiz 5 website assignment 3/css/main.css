@@ -1,0 +1,119 @@
+
+.clr:before,
+.clr:after {
+  content: "";
+  display: table;
+} 
+.clr:after {
+  clear: both;
+}
+.clr {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+header{
+	background-color: #2f4351;
+	text-align: center;
+	height: 68px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.cont{
+	background-color: #3b5367;
+	min-height: 100px;
+	text-align: center;
+	padding: 20px;
+}
+.tas{
+	background-color: #d1d1d1;
+	width: 600px;
+	min-height: 200px;
+	margin: 0 auto;
+
+}
+/*.maindiv{
+	position: static;
+	width: 80%;
+	background-color: pink;
+	right: 10%;
+	
+}*/
+.tasie{
+	color: grey;
+	width: 280px;
+	float: right;
+
+
+}
+#milly{
+	width: 600px;
+	margin: 50px auto;
+
+}
+
+	.hobbies{
+	width: 290px;
+	background-color: pink;
+	float: left;
+	min-height: 200px
+}
+h1{
+	background-color: #f7ce06;
+	margin-top: 0;
+}
+h3{
+	letter-spacing:  2px;
+}
+	.goals{
+	width: 290px;
+	background-color: pink;
+	min-height: 200px;
+	float: right;
+}
+.table{
+	width: 600px;
+	margin: 0 auto;
+	min-height: 200px;
+	padding-bottom: 5px;
+	border:1px solid black;
+	border-collapse: collapse;
+
+
+}
+/*.table tr th {
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+}*/
+
+.table td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-collapse: collapse;
+}
+
+.table table tr th{
+	background-color: yellow;
+	padding-right: 50px;
+}
+/*.table table tr th{
+	padding-right: 50px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}*/
+/*.table table tr td{
+	padding-right: 50px;
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}*/
+footer {
+	position: relative;
+	background-color: #2f4351;
+	min-height: 50px;
+	padding-right: 300px;
+
+}
+footer h4{
+	padding-right: 300px;
+
+}
