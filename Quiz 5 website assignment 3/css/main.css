@@ -1,4 +1,6 @@
-
+body{
+	background-color: #d1d1d1;
+}
 .clr:before,
 .clr:after {
   content: "";
@@ -26,86 +28,84 @@ header{
 }
 .tas{
 	background-color: #d1d1d1;
-	width: 600px;
+	width: 1000px;
 	min-height: 200px;
 	margin: 0 auto;
 
 }
-/*.maindiv{
-	position: static;
-	width: 80%;
-	background-color: pink;
-	right: 10%;
-	
-}*/
+.maindiv{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 200px;
+}
 .tasie{
-	color: grey;
-	width: 280px;
+	/*background-color: yellow;*/
+	/*color: blue;*/
+	width: 480px;
+	height: 460px;
 	float: right;
 
 
 }
 #milly{
-	width: 600px;
+	width: 1000px;
 	margin: 50px auto;
 
 }
 
 	.hobbies{
-	width: 290px;
-	background-color: pink;
+	width: 480px;
+	background-color: white;
 	float: left;
 	min-height: 200px
 }
 h1{
 	background-color: #f7ce06;
-	margin-top: 0;
+	margin-top: 0 auto;
 }
 h3{
 	letter-spacing:  2px;
 }
 	.goals{
-	width: 290px;
-	background-color: pink;
+	width: 480px;
+	background-color: white;
 	min-height: 200px;
 	float: right;
 }
-.table{
-	width: 600px;
+.context{
+	width: 1000px;
+	background-color: red;
 	margin: 0 auto;
-	min-height: 200px;
-	padding-bottom: 5px;
-	border:1px solid black;
+}
+.context table{
+	width: 100%;
+	margin: 50px auto;
 	border-collapse: collapse;
+	background-color: #fff;
 
 
 }
-/*.table tr th {
-	border-bottom: 1px solid black;
-	border-collapse: collapse;
-}*/
-
-.table td{
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
+.context table tr{
+	border-bottom: 1px solid #ccc;
 	border-collapse: collapse;
 }
 
-.table table tr th{
+.context table tr td{
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc ;
+	border-collapse: collapse;
+	padding: 20px 80px;
+}
+
+.context table tr th{
 	background-color: yellow;
-	padding-right: 50px;
+	height: 75px;
 }
-/*.table table tr th{
-	padding-right: 50px;
-	border: 1px solid black;
-	border-collapse: collapse;
-}*/
-/*.table table tr td{
-	padding-right: 50px;
-	border: 1px solid black;
-	border-collapse: collapse;
+.context table tr:last-child{
+	border-bottom: none;
+}
 
-}*/
 footer {
 	position: relative;
 	background-color: #2f4351;
@@ -113,7 +113,7 @@ footer {
 	padding-right: 300px;
 
 }
-footer h4{
+h4{
 	padding-right: 300px;
 
 }
